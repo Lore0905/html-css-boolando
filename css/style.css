@@ -74,7 +74,7 @@ img{
 .didascalia{
     width: 200px;
     position: absolute;
-    bottom: 20px;
+    bottom: 10%;
     left:0px;
     color: white;
     text-align: left;
@@ -100,10 +100,7 @@ img{
 }
 
 .footer{
-    
-    
-    
+    text-align: left;
     /* test */
     border: 1px solid red;
 }
-
