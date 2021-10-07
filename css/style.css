@@ -22,13 +22,16 @@
 
 /* immagine davanti */
 .seconda{
-    display:block;
+    display:inline-block;
 }
 
 /* hover */
-.items:hover{
+.items:hover .prima{
 display:inline-block;
 }
+.items:hover .seconda{
+    display:none;
+    }
 
 
 /* grandezza prima riga */
