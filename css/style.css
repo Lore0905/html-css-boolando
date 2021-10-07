@@ -12,9 +12,8 @@
     width: 80%;
     margin: auto;
     padding: 2% 0;
-    /* test */
-    background-color:pink;
-    border: 3px solid black;
+    
+    
 }
 /* immagine dietro */
 .prima{
@@ -26,13 +25,17 @@
     display:block;
 }
 
+/* hover */
+.items:hover{
+display:inline-block;
+}
+
 
 /* grandezza prima riga */
 .raw{
     width: 100%;
-    /* test */
-    background-color: greenyellow;
-    text-align: center;
+    padding: 30px;
+  
     
 }
 /* grandeza per ogni immagine */
@@ -41,8 +44,6 @@
     display: inline-block;
     position: relative;
 
-   /* test */
-   border: 5px solid black;
 }
 
 /* padding nella seconda immagine */
@@ -79,8 +80,7 @@ img{
     color: white;
     text-align: left;
 
-    /* test */
-    border: 1px solid red;
+    
 }
 
 /* sconto */
@@ -101,6 +101,16 @@ img{
 
 .footer{
     text-align: left;
-    /* test */
-    border: 1px solid red;
+   
+}
+
+/* price color red and underline  */
+.price{
+    color: red;
+    font-weight: 600;
+}
+.price_underline{
+    text-decoration: line-through;
+    color:#565954;
+    font-weight: 100;
 }
