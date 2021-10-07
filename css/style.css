@@ -1,0 +1,39 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* CONTAINER PRINCIPALE */
+
+.container_principale{
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+    /* test */
+    background-color:pink;
+    border: 3px solid black;
+}
+
+/* grandezza prima riga */
+.first_raw{
+    width: 100%;
+
+    /* test */
+    background-color: greenyellow;
+}
+/* grandeza per ogni immagine */
+.items{
+    width: 32%;
+    display: inline-block;
+
+   /* test */
+   border: 5px solid black;
+}
+
+/* le immagini devono stare dentro al 100% di items */
+img{
+    width: 100%;
+}
