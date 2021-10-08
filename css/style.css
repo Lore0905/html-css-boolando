@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+/* font */
+body{
+    font-family: sans-serif;
+}
+
 /* CONTAINER PRINCIPALE */
 
 .container_principale{
