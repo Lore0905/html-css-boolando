@@ -82,7 +82,7 @@ img{
 
 /* didascalia */
 .didascalia{
-    width: 200px;
+    
     position: absolute;
     bottom: 10%;
     left:0px;
@@ -94,7 +94,6 @@ img{
 
 /* sconto */
 .sconto{
-    display:inline-block;
     padding: 5px;
     background-color:red;
     text-align: center;
@@ -102,7 +101,6 @@ img{
 
 /* sostenibilità */
 .sostenibilità{
-    display:inline-block;
     padding:5px;
     background-color:green;
     text-align: center;
