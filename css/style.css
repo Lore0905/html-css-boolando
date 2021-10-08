@@ -33,6 +33,7 @@ body{
 /* hover */
 .items:hover .prima{
 display:inline-block;
+cursor: pointer;
 }
 .items:hover .seconda{
     display:none;
@@ -94,7 +95,7 @@ img{
 /* sconto */
 .sconto{
     display:inline-block;
-    width: 40px;
+    padding: 5px;
     background-color:red;
     text-align: center;
 }
@@ -102,7 +103,7 @@ img{
 /* sostenibilità */
 .sostenibilità{
     display:inline-block;
-    width: 100px;
+    padding:5px;
     background-color:green;
     text-align: center;
 }
@@ -121,4 +122,11 @@ img{
     text-decoration: line-through;
     color:#565954;
     font-weight: 100;
+}
+.dress_name{
+font-weight: 800;
+}
+
+.brand{
+    font-size: 12px;
 }
